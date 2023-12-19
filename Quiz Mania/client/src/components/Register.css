@@ -1,0 +1,93 @@
+
+.heading{
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #001d90 !important;
+    text-align: center;
+}
+
+.registerForm{
+    margin-top: 2%;
+    width: 600px;
+    /* align to center horizontally */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    /* box shadow */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.registerForm h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6rem;
+    color: #001d90;
+    text-align: center;
+}
+
+.registerForm label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: rgb(34, 33, 33);
+    text-align: left;
+}
+
+.registerForm input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: rgb(34, 33, 33);
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    width:100%;
+    box-shadow: inset 0px 0px 10px rgba(48, 47, 47, 0.2);
+    margin-left: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 238, 238);
+}
+
+.registerForm button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(57, 117, 165);
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:none;
+}
+
+.registerForm button:hover{
+    background-color: rgb(23, 68, 103);
+}
+
+.registerForm a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 150px;
+    text-decoration: none  !important;
+}
+
+.registerForm input:focus{
+    outline: none;
+}
+
+.registerForm .error{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    color: rgb(238, 56, 56);
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

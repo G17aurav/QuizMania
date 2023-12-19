@@ -1,0 +1,119 @@
+
+
+.wrapper{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.contact-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    display: flex;
+    
+}
+.hero-eyebrown {
+    color:black;
+    margin-top: 40px;
+    text-align: left;
+    letter-spacing: .02em;
+    text-transform: none;
+    margin-bottom: -10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.h1-contact {
+    color: var(--black);
+    text-align: center;
+    white-space: normal;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 62.4px;
+    display: block;
+}
+.hero-subtitle-cntact {
+    color: var(--black);
+    text-align: center;
+    letter-spacing: -.01px;
+    text-transform: none;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+}
+.contact-form-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.hs-form{
+    width: 100%;
+}
+.contact-text{
+    margin-left: 15rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+.para{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.imgr{
+    width: 15px;
+    height: 15px;
+}
+span{
+    color: blue;
+    font-weight: 700;
+}
+ul{
+    font-size: medium;
+}
+.cs-footer{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+}
+.cs-footer h3{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.cs-heading4{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+li{
+    /* flex items-baseline gap-[20px] mb-[5px] */
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+li img{
+    margin-right: 15px;
+    margin-top: 5px;
+}
