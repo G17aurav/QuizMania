@@ -41,19 +41,6 @@ Start the both server on seprate terminals
   cd client
   npm start
 ```
-
-  
-## Demo
-
-<img src="/media/sign-up.png" alt="Sign-Up" width="700"/> 
-
-<img src="/media/login.png" alt="Sign-Up" width="700"/>
-
-<img src="/media/home.png" alt="Sign-Up" width="700"/>
-
-<img src="/media/quiz.png" alt="Sign-Up" width="700"/>
-
-<img src="/media/history.png" alt="Sign-Up" width="700"/>
   
 ## Feedback
 
